@@ -14,7 +14,7 @@ public class DBConnect
 			
 			Class.forName("com.mysql.cj.jdbc.Driver");
 		//	conn = DriverManager.getConnection("jdbc:sqlite:mydatabase.db");
-			conn = DriverManager.getConnection("jdbc:sqlite:host.docker.internal:3306/mydatabase","root","root123");
+			conn = DriverManager.getConnection("jdbc:sqlite:dtclass.db");
 			
 		}catch (Exception e) {
 			e.printStackTrace();
