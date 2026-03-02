@@ -9,4 +9,3 @@ WORKDIR /usr/local/tomcat/webapps/
 COPY --from=praveen /app/target/*.war .
 
 EXPOSE 8080
-# CMD ["java","-war","target/EcommerceApp.war"]
