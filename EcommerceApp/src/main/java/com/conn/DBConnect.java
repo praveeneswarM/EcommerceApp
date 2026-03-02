@@ -14,7 +14,7 @@ public class DBConnect
 			
 			Class.forName("com.mysql.cj.jdbc.Driver");
 		//	conn = DriverManager.getConnection("jdbc:sqlite:mydatabase.db");
-			conn = DriverManager.getConnection("jdbc:mysql://10.0.1.175:3306/dbname");
+			conn = DriverManager.getConnection("jdbc:sqlite:10.0.1.175:3306/mydatabase.db");
 			
 		}catch (Exception e) {
 			e.printStackTrace();
