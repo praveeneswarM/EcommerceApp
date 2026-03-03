@@ -33,7 +33,7 @@ public class DBConnect {
                         // MySQL 8+ driver
                         Class.forName("com.mysql.cj.jdbc.Driver");
  
-                        final String host = getenv("DB_HOST", "10.0.1.102");
+                        final String host = getenv("DB_HOST", "10.0.1.175");
                         final String port = getenv("DB_PORT", "3306");
                         final String name = getenv("DB_NAME", "ecomdb");
                         final String user = getenv("DB_USER", "ecomuser");
